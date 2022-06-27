@@ -11,12 +11,12 @@ namespace AbstractFactoryPattern.Factories
     {
         public IDog GetDog()
         {
-            throw new NotImplementedException();
+            return new PetDog();
         }
 
         public ITiger GetTiger()
         {
-            throw new NotImplementedException();
+            return new PetTiger();
         }
     }
 }
